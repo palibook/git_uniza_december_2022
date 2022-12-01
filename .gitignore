@@ -1,0 +1,28 @@
+# comment
+
+# Ignores specific_file.txt; folder/specific_file.txt; folder_1/folder_2/specific_file.txt
+#specific_file.txt
+# Ignores specific_file.txt
+#/specific_file.txt
+# Ignores folder specific_folder
+#specific_folder/
+
+# Ignores error.log; logs/debug.log; output/logs.debug.log
+# *.log
+
+# Ignores everything from logs folder
+# logs/**
+# Ingores dev/build; prod/build; alternate form -> build
+# **/build
+# Ignores logs/log.txt; logs/debug/log.txt; logs/prod/debug/log.txt
+# logs/**/log.txt
+
+# Ignores log1.txt; log2.txt; log3.txt
+# log?.txt
+
+# won't ignore error.log nor logs/error.log
+# *.log
+# !error.log
+
+# Ignores file.o; file.a
+# *.[oa]
