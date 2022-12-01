@@ -8,7 +8,7 @@
 #specific_folder/
 
 # Ignores error.log; logs/debug.log; output/logs.debug.log
-# *.log
+#*.log
 
 # Ignores everything from logs folder
 # logs/**
